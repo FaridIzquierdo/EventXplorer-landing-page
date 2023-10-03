@@ -1,0 +1,532 @@
+/*--------------------------------------------------------------
+# All Project 
+--------------------------------------------------------------*/
+
+*{
+    font-family: 'Roboto';
+  }
+
+/*--------------------------------------------------------------
+# Section-Navbar
+--------------------------------------------------------------*/
+
+  .logo{
+    height: 50px;
+  } 
+
+/*--------------------------------------------------------------
+# Section-Home
+--------------------------------------------------------------*/
+
+  #section-home {
+    background-image: url("img/neon2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    text-shadow: 4px 3px black;
+  }
+  
+  .box-home{
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .prhase {
+    padding: 50px;
+    font-size: 80px;
+  }
+  
+  .mini-prhase {
+    font-size: 35px;
+  }
+
+  .title-contact-us{
+    padding: 50px;
+    font-size: 80px;
+  }
+  .subtitle-contact-us{
+    font-size: 35px;
+  }
+  
+  #btn-get-started {
+    margin-bottom: 125px;
+    
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .prhase {
+      font-size: 50px;
+    }
+    .mini-prhase {
+      font-size: 25px;
+    }
+    #btn-get-started {
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .prhase {
+      font-size: 40px;
+    }
+    .mini-prhase {
+      font-size: 20px;
+    }
+    #btn-get-started {
+      margin-bottom: 25px;
+    }
+  }
+
+  
+.box-home{
+  padding: 50px;
+  text-align: center;
+}
+
+.prhase {
+  padding: 50px;
+  font-size: 80px;
+}
+
+.mini-prhase {
+  font-size: 35px;
+}
+
+#btn-get-started {
+  margin-bottom: 125px;
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .prhase {
+    font-size: 50px;
+  }
+  .mini-prhase {
+    font-size: 25px;
+  }
+  #btn-get-started {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .prhase {
+    font-size: 40px;
+  }
+  .mini-prhase {
+    font-size: 20px;
+  }
+  #btn-get-started {
+    margin-bottom: 25px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Home-Section-Benefits
+--------------------------------------------------------------*/
+  #section-our-benefits{
+    background-image: url("img/neon3.jpg");
+    padding: 90px;
+    min-height: 1010px;
+  }
+  .card-img-top{
+    height: 300px;
+    transition: all 0.3s ease;
+  }
+
+  .card-img-top:hover{
+    transform: scale(1.1);
+  }
+  .box-benfits{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card{
+    background-image: url("img/neon1.jpg");
+    background-size: cover;
+    box-shadow: 2px 2px  2px 2px white;
+    transition: all 0.3s ease;
+    
+  }
+  .card :hover{
+    transform: scale(1.1);
+  }
+  .caja{
+    text-align: center;
+    line-height: 70px;
+    margin:5px;
+    transition: all 0.3s ease;
+  }
+  .caja :hover{
+    transform: scale(1.1);
+  }
+
+  .box-benfits{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+/*--------------------------------------------------------------
+# Home-Section-Client
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 995px) {
+  .box-client-text {
+    margin-bottom: 20px;
+  }
+  .card-body {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .box-client-text {
+    margin-bottom: 20px;
+  }
+  .card-body {
+    padding: 10px;
+  }
+  .img-client{
+    margin-top: 60px;
+    
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .box-client-text {
+    width: 80%;
+  }
+  
+}
+.box-client-text{
+  margin-top: 40px;
+}
+.box-client{
+  margin-top: 50px;
+
+}
+.title-client{
+  margin-bottom: 70px;
+  font-size:80px;
+  margin-top: 0;
+  color:#ffff;
+}
+.box-client{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+.contain-img-client{
+  padding: 50px;
+}
+#section-client{
+  background-color: #bc94c4;
+  color:white;
+}
+
+.box-client{
+  margin-top: 50px;
+}
+
+.title-client{
+  margin-bottom: 70px;
+  font-size:80px;
+  margin-top: 0;
+  color:#ffff;
+}
+
+.card1{
+  background-color: #6c748c;
+  border-radius: 8px;
+  padding: 10px;
+  
+}
+
+@media (max-width: 767px) {
+  .title-client {
+    font-size: 55px; 
+  }
+}
+
+/*--------------------------------------------------------------
+# Home-Section-Organizator
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 995px) {
+  .box-organizator-text {
+    margin-bottom: 20px;
+  }
+  .card-body {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .box-organizator-text {
+    margin-bottom: 20px;
+  }
+  .card-body {
+    padding: 10px;
+  }
+  .img-organizator{
+    margin-top: 60px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .box-organizator-text {
+    width: 80%;
+  }
+  
+}
+.box-organizator-text{
+  margin-top: 50px;
+}
+.box-organizator{
+  margin-top: 50px;
+  
+}
+.title-organizator{
+  margin-bottom: 70px;
+  font-size:80px;
+  margin-top: 0;
+  color:#ffff;
+}
+.box-organizator{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+.contain-img-organizator{
+  padding: 20px;
+}
+#section-organizator{
+  background-color: #d699d5;
+  color:white;
+  
+}
+
+@media (max-width: 767px) {
+  .title-organizator {
+    font-size: 55px; 
+  }
+}
+
+/*--------------------------------------------------------------
+# Home-Section-User-Review
+--------------------------------------------------------------*/
+  .slide{
+    margin-top: 10px;
+
+  }
+  .slide img{
+    height: 35vh;
+  }
+
+  .text-review{
+    font-size:50px;
+  }
+  .other-text-review{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size:35px;
+    font-weight:400;
+  }
+
+  #section-review-users{
+    background-color: #8c88b2;
+    padding: 20px;
+    color:#ffff;
+  }
+
+
+/*--------------------------------------------------------------
+# Home-Section-Platforms
+--------------------------------------------------------------*/
+
+  #section-platforms{
+    padding: 50px;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-luces-neon-realista_52683-59889.jpg?w=1380&t=st=1680582493~exp=1680583093~hmac=ffc5ea7f576ed2782cc6aa06010072dc2372a38ff40dc1bc4d1f4993b786cc90");
+  }
+  .text-download{
+    font-size:50px;
+    color:white
+  }
+  .img-download{
+    height: 70px;
+    width: 230px;
+    margin:20px 30px;
+    border-radius: 2%;
+  }
+  .social_network{
+    margin: 30px auto;
+  }
+
+/*--------------------------------------------------------------
+# Home-Section-Information-Events
+--------------------------------------------------------------*/
+
+  .title-event-explorer{
+    font-size: 100px;
+    font-weight: 400;
+  }
+  .subtitle-event-xplorer{
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .box-main-event-xplorer{
+    margin-top: 15%;
+  }
+
+  .card{
+      background-image: url("img/neon1.jpg");
+      background-size: cover;
+      box-shadow: 2px 2px  2px 2px white;
+  }
+  .caja{
+      text-align: center;
+      line-height: 70px;
+      margin:5px;
+      
+  }
+
+  /*--------------------------------------------------------------
+# Home-Section-Events
+--------------------------------------------------------------*/
+
+  #section-events{
+    color:#ffff;
+    background-color: #6c748c;
+    padding: 50px;
+  }
+  .text-event{
+    font-size:50px;
+    color:white;
+
+  }
+  #section-events .all-box-events .row .flex-container img{
+    height: 250px;
+  }
+  #section-events .all-box-events .row .flex-container .text-event{
+    margin: 70px auto;
+    text-shadow: 2px 2px 2px 2px black;
+  }
+
+/*--------------------------------------------------------------
+# EventXplorer-Section-Visión
+--------------------------------------------------------------*/
+
+#section-vision{
+  background-image: url("https://as1.ftcdn.net/v2/jpg/05/51/64/70/1000_F_551647055_yujfGUARRb4ebIaSSSJJb15RswWu7ASM.jpg");
+  background-size: cover;
+    padding: 50px;   
+}
+.box-vision{
+    margin: 70px auto;
+    
+}
+
+/*--------------------------------------------------------------
+# EventXplorer-Section-Misión
+--------------------------------------------------------------*/
+
+#section-mision{
+    background-image: url("img/neon6.jpg");
+    background-size: cover;
+    padding: 50px;   
+}
+.box-mision{
+    margin: 70px auto;
+}
+
+/*--------------------------------------------------------------
+# EventXplorer-Section-Who We Are
+--------------------------------------------------------------*/
+
+#section-who-we-are{
+    background-image: url("img/neon3.jpg");
+    background-size: cover;
+    padding: 50px;
+}
+.box-who-we-are{
+    margin: 70px auto;
+}
+
+#img-section-event-xplorer{
+    height: 300px;
+}
+
+
+/*--------------------------------------------------------------
+# EventXplorer-Section-About-Team
+--------------------------------------------------------------*/
+
+#section-about-team{
+  background-image: url("https://img.freepik.com/vector-gratis/resumen-colores-fondo_23-2148462464.jpg?w=1380&t=st=1680582756~exp=1680583356~hmac=efeddcb271398c3408545f31db4a5af7851966d7f5ee816849a8a0437c30cd5c");
+  
+  padding: 20px;
+  color:#ffff;
+}
+
+  /*--------------------------------------------------------------
+# Section-Contact-Us
+--------------------------------------------------------------*/
+
+
+#section-form-contact-us{
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/72/49/20/1000_F_272492011_Czrh1o3NFPgUIsxo4u4Fp8TrjNIiDVhG.jpg");
+  background-size: cover;
+  color: white;
+  padding: 50px;
+}
+#contact-text{
+  font-size: 25px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:300px;
+  width:500px;
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:300px;
+  width:500px;
+  margin-top: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer{
+  padding:20px;
+  background-color: #bc94c4;
+}
+
